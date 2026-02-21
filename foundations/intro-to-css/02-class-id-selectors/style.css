@@ -12,3 +12,9 @@
 #third-number{
     font-size: 24px;
 }
+
+#fourth-number{
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
