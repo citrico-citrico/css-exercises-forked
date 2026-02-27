@@ -7,6 +7,10 @@ body {
   font-size: 16px;
 }
 
+div{
+  padding: 10px;
+}
+
 .card {
   width: 400px;
   background: #fff;
