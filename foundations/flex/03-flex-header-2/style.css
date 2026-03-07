@@ -17,6 +17,11 @@ body {
   align-items: center;
 }
 
+.item{
+  display: flex;
+  flex-direction: row;
+}
+
 
 .profile-image {
   background: rebeccapurple;
@@ -31,6 +36,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  align-self: center;
 }
 
 button {
@@ -49,4 +55,5 @@ a {
 
 ul {
   list-style-type: none;
+
 }
