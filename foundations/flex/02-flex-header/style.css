@@ -19,12 +19,14 @@ ul {
   list-style-type: none;
   display:  flex;
   flex-flow: row;
+  padding: 5px;
 }
 
 a {
   font-size: 22px;
   background: white;
   padding: 8px;
+  margin: 5px;
   /* this removes the line under the links */
   text-decoration: none;
 }
