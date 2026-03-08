@@ -10,14 +10,15 @@ img {
 .plant-info{
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+   gap: 52px;
+   justify-content: center;
 }
 
 .plant{
   width: 200px;
+  height: auto;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 52px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
