@@ -19,6 +19,7 @@ body {
   display: flex;
   flex-direction: column;
   flex: 4;
+  gap: 7px;
 }
 
 .modal {
@@ -83,4 +84,8 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.buttons{
+  display: flex;
 }
