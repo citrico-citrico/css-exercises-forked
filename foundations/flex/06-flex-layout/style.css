@@ -18,22 +18,19 @@ body {
   flex-direction: column;
 }
 
-.header {
-  display: flex;
-  flex-direction: row;
-}
-
+.header,
 .footer {
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0;
 }
 
 .left-links,
 .right-links{
   display: flex;
   gap: 13px;
-  justify-content: space-between;
+  margin-right: 15px;
 }
 
 ul{
@@ -50,7 +47,7 @@ button {
   border-radius: 8px;
   background: #eee;
   padding: 8px;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 input {
@@ -58,4 +55,5 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+  margin-top: 8px;
 }
