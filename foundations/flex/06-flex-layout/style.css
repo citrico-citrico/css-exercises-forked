@@ -26,6 +26,10 @@ body {
   padding: 0;
 }
 
+.footer{
+  background-color: #eeeeee;
+}
+
 .left-links,
 .right-links{
   display: flex;
