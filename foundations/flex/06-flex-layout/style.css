@@ -27,6 +27,13 @@ body {
   flex-direction: column;
 }
 
+.left-links,
+.right-links{
+  display: flex;
+  flex-direction: row;
+  gap: 13px;
+}
+
 ul{
   list-style-type: none;
 }
