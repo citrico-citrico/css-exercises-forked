@@ -8,6 +8,13 @@ body {
   display: flex;
 }
 
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 ul{
   list-style-type: none;
 }
