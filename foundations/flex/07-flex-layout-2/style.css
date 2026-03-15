@@ -15,6 +15,11 @@ body {
   flex-direction: row;
 }
 
+.card{
+  height: 300px;
+  width: 300px;
+}
+
 .cards{
   display: flex;
   flex-wrap: wrap;
